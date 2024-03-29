@@ -1,0 +1,15 @@
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .card-body {
+    padding: 40px;
+  }
+  /* Add custom styles for the spinner */
+.mat-progress-spinner circle {
+  stroke: #007bff; /* Change to your desired color */
+}

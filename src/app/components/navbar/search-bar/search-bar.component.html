@@ -1,0 +1,13 @@
+<div class="d-flex justify-content-center">
+    <div class="input-group">
+      <input #searchInput
+             type="text"
+             class="form-control idel-search"
+             placeholder="Search about user..."
+             (focus)="isSearchBarActive = true"
+             (blur)="isSearchBarActive = false"
+             [ngClass]="{'active-search': isSearchBarActive}"
+             (keyup)="doSearch(searchInput.value)">
+    </div>
+  </div>
+  
